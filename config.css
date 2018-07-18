@@ -1,0 +1,35 @@
+/* Need Help? Join my discord @ discord.gg/yWddFpQ */
+/* If you want to change the keypress on the scoreboard opening, go to 'client.lua' */
+:root /* Edit this for config */ {
+	--main-bg-color: rgba(44, 70, 112, 0.329);
+	--main-heading-bg-color: rgba(0, 0, 0, 0.568);
+	--main-font: 'Roboto Condensed', sans-serif; /* If you are using a font api, pls import it. in the index or here */
+	--main-text-color: rgba(255, 255, 255, 0.9);
+	--main-font-size: 39px;
+	--main-window-width: 370px;
+	--main-window-height: 185px;
+	--main-text-align: left;
+	--main-heading-height: 23px;
+	--main-padding: 7px;
+	--main-font-weight: 500; 
+  }
+/* Config END */
+
+
+
+/* Default Values Just in case you mess something up */
+/* 
+
+--main-bg-color: rgba(44, 70, 112, 0.329);
+--main-heading-bg-color: rgba(0, 0, 0, 0.568);
+--main-font: 'Roboto Condensed', sans-serif;
+--main-text-color: rgba(255, 255, 255, 0.9);
+--main-font-size: 39px;
+--main-window-width: 370px;
+--main-window-height: 185px;
+--main-text-align: left;
+--main-heading-height: 23px;
+--main-padding: 7px;
+--main-font-weight: 500; 
+
+*/
