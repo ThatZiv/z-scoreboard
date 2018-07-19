@@ -39,6 +39,8 @@
 --main-font-weight: 500;
 }
 ```
+To change keypress value to open scoreboard -> go to `client.lua` | Default Key: **Z**
+
 ## __Support__
 If you need any help/support, join my [discord](https://discordapp.com/invite/yWddFpQ) and ask in **#support**
 
