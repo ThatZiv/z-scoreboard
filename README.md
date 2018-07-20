@@ -62,6 +62,7 @@ var footer = 'discord.gg/xyz';
 document.getElementById('title').innerHTML = title;
 document.getElementById('footer').innerHTML = footer;
 ```
+Change the variable's strings in `config.js` to match to your liking.
 To change keypress value to open scoreboard -> go to `client.lua` | Default Key: **Z**
 
 ## __Support__
