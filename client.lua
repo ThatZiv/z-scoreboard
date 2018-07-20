@@ -15,7 +15,7 @@ Citizen.CreateThread(function()
                 for _, i in ipairs(ptable) do
                     r, g, b = GetPlayerRgbColour(i)
                     table.insert(players,
-                    '<tr style=\"color: #fff"><td>' .. GetPlayerServerId(i) .. '</td><td>' .. (GetPlayerName(i)) .. '</td></tr>'
+                    '<tr style=\"color: #fff"><td>' .. GetPlayerServerId(i) .. '</td><td>' .. (GetPlayerName(i) .. '</td></tr>'
                     )
                 end
 
