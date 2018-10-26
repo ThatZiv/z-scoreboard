@@ -3,12 +3,13 @@
 local nui = false
 
 Citizen.CreateThread(function()
-
+    --[[ If you want to change the key, go to https://docs.fivem.net/game-references/controls/ and change the '20' value below]]
+    key = 10 -- Change this to your key value
     nui = false
     while true do
         Citizen.Wait(1)
---[[ If you want to change the key, go to https://docs.fivem.net/game-references/controls/ and change the '20' value below]]
-        if IsControlPressed(0, 20)--[[ 'Z' Key ]] then 
+
+        if IsControlPressed(0, key) then 
             if not nui then
                 local players = {}
                 ptable = GetPlayers()
@@ -24,7 +25,7 @@ Citizen.CreateThread(function()
                 nui = true
                 while nui do
                     Wait(0)
-                    if(IsControlPressed(0, 48) == false) then
+                    if(IsControlPressed(0, key) == false) then
                         nui = false
                         SendNUIMessage({
                             meta = 'close'
