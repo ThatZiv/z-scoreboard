@@ -4,7 +4,7 @@ local nui = false
 
 Citizen.CreateThread(function()
     --[[ If you want to change the key, go to https://docs.fivem.net/game-references/controls/ and change the '20' value below]]
-    key = 10 -- Change this to your key value
+    local key = 10 -- Change this to your key value
     nui = false
     while true do
         Citizen.Wait(1)
